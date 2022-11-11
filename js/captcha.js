@@ -26,8 +26,7 @@ btn_actualizar.addEventListener("click",e=>{
 let boton=document.querySelector("#form");
 boton.addEventListener("submit", comparacion);
 
-function comparacion(e){
-    e.preventDefault();
+function comparacion(){
     div_respuesta.innerHTML=""
     let texto=document.querySelector("#texto_captcha").textContent;
     let captcha=document.querySelector("#input_captcha").value;

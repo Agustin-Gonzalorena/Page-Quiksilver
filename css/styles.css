@@ -4,6 +4,7 @@
 
 /*--------header--------*/
 
+
 header{
     margin-bottom: 5px;
 }
@@ -481,7 +482,7 @@ table{
 }
 .form_pregunta{
     display: grid;
-    margin:30px;
+    margin:5px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 4fr 2fr;
     grid-row-gap: 20px;

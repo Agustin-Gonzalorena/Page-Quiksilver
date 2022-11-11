@@ -10,7 +10,9 @@ document.querySelector("#form_modificar").addEventListener("submit", modificar);
 mostrar_tabla();
 async function mostrar_tabla(){
     let contenedor_tabla= document.querySelector("#guia_talles");
-    contenedor_tabla.innerHTML="<p>LOADING</p>"
+    contenedor_tabla.innerHTML=`<div class="spinner-border" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>`
     try{
         let response= await fetch(url);
         let json= await response.json();
